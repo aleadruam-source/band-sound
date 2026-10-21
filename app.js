@@ -1,0 +1,1 @@
+function go(id){document.getElementById(id)?.scrollIntoView({behavior:'smooth'})}function toast(msg){const x=document.getElementById('toast');x.textContent=msg;x.classList.add('show');setTimeout(()=>x.classList.remove('show'),2400)}
